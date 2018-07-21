@@ -24,13 +24,37 @@
 			width: 100%;
 			position: absolute;
 			height: 64px;
-			background-color: #f5f5f5;
+			background-color: #666666;
+			color: #777777;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		}
 
 		.footer-block {
 			margin: 20px 0;
 		}
 
+		.col-md-8 {
+			margin-top: 25px;
+			background-color: white;
+			font-family: 'Georgia', Times New Roman, Times, serif;
+		}
+
+		body {
+			background-image: url(images/subtle_white_feathers.png);
+		}
+
+		.namePlaceholder {
+			font-size: 30px;
+			background-color: #4aaaa5;
+			color: #ffffff;
+			padding: 10px;
+			font-family: 'Georgia', Times New Roman, Times, serif;
+		}
+
+		h2 {
+			color: #4aaaa5;
+			padding-top: 15px;
+		}
 	</style>
 
 </head>
@@ -38,51 +62,58 @@
 <body>
 	<!--nav links-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-		 aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<div class="container">
+			<div class="namePlaceholder">Tommie Behrenbeck</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" style="padding: 10px" href="index.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="padding: 10px" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="padding: 10px" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
 	<div class="container">
 
-		<div class="row"> <!--About Me header row-->
+		<div class="row">
+			<!--About Me header row-->
 
-			<div class="col-md-8" style="border: 2px solid #000000">
+			<div class="col-md-8">
 				<div class="page-header">
-					<h1>About Me</h1>
+					<h2>About Me</h2>
 					<hr>
-				</div> 	<!--end header row-->
+				</div>
+				<!--end header row-->
 
-				<div class="row"> <!--content row-->
-					<div class="col-md-3"> <!--photo column-->
-						<img src="http:placehold.it/200x200" class="img-fluid" alt="thumbnail">
+				<div class="row">
+					<!--content row-->
+					<div class="col-md-3">
+						<!--photo column-->
+						<img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
 					</div>
-					
-					<div class="col-md-9"> <!--bio column-->
+
+					<div class="col-md-9">
+						<!--bio column-->
 						<p>Hi, I’m Tommie. Nice to meet you.</p>
 						<p>I am a new web developer based in Austin, Texas. With a large appetite for all things tech, I have had the opportunity
-						to work for some tech startups which has ignited the fire to learn how to code. I look forward to integrating my past
-						customer facing experience with design and development.</p>
+							to work for some tech startups which has ignited the fire to learn how to code. I look forward to integrating my past
+							customer facing experience with design and development.</p>
 						<p>When not coding, I can be found sweating in the gym or around Lady Bird Trail, meal prepping in the kitchen, exploring
-						nearby state parks, or binge watching Netflix.</p>
-					</div> <!--end content row-->
+							nearby state parks, or binge watching Netflix.</p>
+					</div>
+					<!--end content row-->
 				</div>
 
 			</div>
