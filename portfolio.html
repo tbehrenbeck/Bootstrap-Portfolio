@@ -9,71 +9,95 @@
         crossorigin="anonymous">
 
     <style>
-        html {
-            min-height: 100%;
-            position: relative;
-        }
+    /* general */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
 
-        body {
-            margin-bottom: 64px;
-        }
-
-        .navbar {
-            border-bottom: 2px solid #cccccc;
-            padding-bottom: 0px;
-			padding-top: 0px;
-		}
-
-        .col-md-11 {
-            margin-top: 25px;
-            background-color: white;
-            border: 2px solid #cccccc;
-            padding-bottom: 10px;
-            font-family: 'Georgia', Times New Roman, Times, serif;
-            position: relative;
-            left: 16px;
-        }
-
-        .col-md-3 {
-            display: block;
-            max-width:250px;
-            max-height:250px;
-            width: auto;
-            height: auto;
-            margin:10px;
-        }
+    body {
+        margin-bottom: 64px;
+        background-image: url(images/subtle_white_feathers.png);
         
-        body {
-            background-image: url(images/subtle_white_feathers.png);
-        }
+    }
 
-        .namePlaceholder {
-            font-size: 30px;
-            background-color: #4aaaa5;
-            color: #ffffff;
-            padding: 10px;
-            font-family: 'Georgia', Times New Roman, Times, serif;
-        }
+    /* nav bar */
+    .navbar {
+        border-bottom: 2px solid #cccccc;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
 
-        h2 {
-            color: #4aaaa5;
-            padding-top: 15px;
-        }
+    .namePlaceholder {
+        font-size: 30px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 10px;
+        font-family: 'Georgia', Times New Roman, Times, serif;
+    }
 
-        #footer {
-            bottom: 0;
-            width: 100%;
-            position: absolute;
-            height: 64px;
-            background-color: #666666;
-            color: #777777;
-            border-top: 5px solid #4aaaa5;
-            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        }
+    /* main */
+    .col-md-11 {
+        margin-top: 25px;
+        background-color: white;
+        border: 2px solid #cccccc;
+        padding-bottom: 10px;
+        font-family: 'Georgia', Times New Roman, Times, serif;
+    }
 
-        .footer-block {
-            margin: 20px 0;
-        }
+    .col-md-4 {
+        display: block;
+        max-width:250px;
+        max-height:250px;
+        width: auto;
+        height: auto;
+        margin:12px;
+    }
+
+    .imgGal {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+
+    .imgGal h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 11px;
+        color: #fff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+    }
+  
+
+    h2 {
+        color: #4aaaa5;
+        padding-top: 15px;
+    }
+
+
+    /* footer */
+    #footer {
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+        height: 64px;
+        background-color: #666666;
+        color: #777777;
+        border-top: 5px solid #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    .footer-block {
+        margin: 20px 0;
+    }
     </style>
 
 </head>
@@ -117,27 +141,32 @@
 
                 <div class="row">
                     <!--content row-->
-                    <div class="col-md-3 imgGal">
+                    <div class="col-md-4 imgGal">
                         <!--imgGalleryRow1-->
-                        <img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                        <img src="images/travelimg.jpg" class="img-fluid" alt="Responsive image">
+                        <h3>Travel</h3>
                     </div>
-                    <div class="col-md-3 imgGal">
-                        <img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                    <div class="col-md-4 imgGal">
+                        <img src="images/service-image21.jpg" class="img-fluid" alt="Responsive image">
+                        <h3>Fitness</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 imgGal">
+                    <div class="col-md-4 imgGal">
                         <!--imgGalleryRow2-->
-                        <img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                        <img src="images/Cooking.png" class="img-fluid" alt="Responsive image">
+                        <h3>Food</h3>
                     </div>
-                    <div class="col-md-3 imgGal">
-                        <img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                    <div class="col-md-4 imgGal">
+                        <img src="images/movieimg.jpg" class="img-fluid" alt="Responsive image">
+                        <h3>Entertainment</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 imgGal">
+                    <div class="col-md-4 imgGal">
                         <!--imgGalleryRow3-->
-                        <img src="http:placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                        <img src="images/concert.jpg" class="img-fluid" alt="Responsive image">
+                        <h3>Music</h3>
                     </div>
                 </div>
             </div>
